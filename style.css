@@ -1,0 +1,102 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+h1{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 45px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #1e212c;
+}
+.button-start {
+	display: flex;
+	justify-content: center;
+}
+.main-btn {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	border: none;
+	padding: 10px 40px;
+	border-radius: 40px;
+	color: #1e212c;
+	background-color: var(--back-color);
+	box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+            -7px -7px 20px rgba(255, 255, 255, 1),
+            inset 0px 0px 4px rgba(255, 255, 255, .2),
+            inset 7px 7px 15px rgba(55, 84, 170, 0),
+            inset -7px -7px 20px rgba(255, 255, 255, 0),
+            0px 0px 4px rgba(255, 255, 255, 0) !important;
+	transition: box-shadow .25s ease !important;
+}
+.image {
+	display: flex;
+	justify-content: center;
+}
+img {
+	width: 300px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: var(--back-color);
+	padding: 40px;
+	box-shadow: 7px 7px 15px rgb(55 84 170 / 15%), -7px -7px 20px rgb(255 255 255), 0px 0px 4px rgb(255 255 255 / 20%) !important;
+	border-radius: 30px;
+	max-width: 300px;
+	width: min-content;
+}
+.btn-start-one, .btn-start-two, .btn-start-three, .btn-start-four {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	border: none;
+	padding: 10px 40px;
+	border-radius: 40px;
+	color: #1e212c;
+	background-color: var(--back-color);
+	box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+            -7px -7px 20px rgba(255, 255, 255, 1),
+            inset 0px 0px 4px rgba(255, 255, 255, .2),
+            inset 7px 7px 15px rgba(55, 84, 170, 0),
+            inset -7px -7px 20px rgba(255, 255, 255, 0),
+            0px 0px 4px rgba(255, 255, 255, 0) !important;
+	transition: box-shadow .25s ease !important;
+}
+.btn-start-one:active, .btn-start-two:active, .btn-start-three:active, .btn-start-four:active {  
+	box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+            -7px -7px 20px rgba(255, 255, 255, 1),
+            inset 0px 0px 4px rgba(255, 255, 255, 0),
+            inset 7px 7px 15px rgba(55, 84, 170, .15),
+            inset -7px -7px 20px rgba(255, 255, 255, 1),
+            0px 0px 4px rgba(255, 255, 255, .2) !important;
+}
+.block {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.girls-one, .girls-two, .girls-three, .girls-four {
+	width: 150px;
+	margin: 20px 30px 30px 30px;
+}
+.style-hair{
+	display: flex;
+	justify-content: center;
+}
+.newText {
+	width: 600px;
+	font-size: 30px;
+	margin: 0 auto;
+	margin-top: 70px;
+	line-height: 1.5;
+}
+@media all and (max-width:500px) {
+	.newText {
+
+		font-size: 20px;
+		word-wrap: inherit;
+		width: 350px;
+	}
+}
